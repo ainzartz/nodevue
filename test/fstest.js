@@ -15,7 +15,8 @@ fs.writeFileSync(msgfile,'hello node js2', (err) => {
     util.log('This file was saved!');
 });
 
-let data2 = fs.readFileSync(msgfile,'utf-8')
+let data2 = fs.readFileSync(msgfile,'utf-8') ;
 util.log("data2>>",data2);
-util.log("data2============================================")
+util.log("data2============================================");
+
 return;
